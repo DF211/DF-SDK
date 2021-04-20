@@ -1,0 +1,66 @@
+<!--miniprogram/pages/home_center/common_panel/index.js.wxml-->
+<wxs src="./index.wxs" module="utils" />
+
+<image style="width: 750rpx; height: 1290rpx; display: block; box-sizing: border-box; left: -2rpx; top: 43rpx; position: absolute"  class="common-panel-backgroud" src="{{forest}}" />
+<navbar style="position: relative; left: -2rpx; top: 3rpx; width: 750rpx; height: 211rpx; display: block; box-sizing: border-box"  device_name="智能插座" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
+
+
+
+
+  <navbar style="position: relative; left: 0rpx; top: -533rpx"  class="bar" device_name="智能插座" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
+
+<!--顶部 大图标-->
+
+<view class='top_col' style="width: 750rpx; height: 150rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+	<view class='top_block' style="width: 324rpx; height: 347rpx; display: block; box-sizing: border-box; left: 235rpx; top: -99rpx; position: relative">
+    <image class="top_image" src='/image/cz2.png' style="width: 237rpx; height: 237rpx; display: inline-block; box-sizing: border-box; left: 33rpx; top: 10rpx; position: relative"></image>
+    <view class="top_content" style="width: 129rpx; height: 64rpx; display: block; box-sizing: border-box; left: 88rpx; top: 38rpx; position: relative">已开启</view>
+  </view>
+  
+</view>
+
+
+
+
+<!--底部 按钮-->
+<view class='bottom_col'
+  style="width: 626rpx; height: 661rpx; display: block; box-sizing: border-box; left: 68rpx; top: 233rpx; position: relative">
+  <view class='bottom_block'
+    style="width: 202rpx; height: 230rpx; display: block; box-sizing: border-box; left: 115rpx; top: 0rpx; position: relative">
+    <image class="bottom_image" src='/image/kg.png'
+      style="width: 118rpx; height: 113rpx; display: inline-block; box-sizing: border-box; left: 3rpx; top: 0rpx; position:">
+    </image>
+    
+    <button class="mini-btn" type="default" size="mini" style="width: 167rpx; height: 75rpx; display: inline-block; box-sizing: border-box; left: -25rpx; top: -10rpx; position: relative">开关</button>
+
+  </view>
+  <view class='bottom_block'
+    style="width: 202rpx; height: 256rpx; display: block; box-sizing: border-box; left: 352rpx; top: -240rpx; position: relative">
+    <image class="bottom_image" src='/image/djs.png'
+      style="width: 111rpx; height: 120rpx; display: inline-block; box-sizing: border-box; left: 32rpx; top: 10rpx; position: relative">
+    </image>
+    <button class="mini-btn" type="default" size="mini" style="width: 174rpx; height: 66rpx; display: inline-block; box-sizing: border-box; left: 0rpx; top: 0rpx">倒计时</button>
+  
+    
+  </view>
+  <view class='bottom_block'
+    style="width: 202rpx; height: 230rpx; display: block; box-sizing: border-box; left: 120rpx; top: -240rpx; position: relative">
+    <image class="bottom_image" src='/image/ds.png'
+      style="width: 122rpx; height: 125rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+    </image>
+  
+  
+    <button class="mini-btn" type="default" size="mini" style="width: 188rpx; height: 83rpx; display: inline-block; box-sizing: border-box; left: -33rpx; top: 17rpx; position: relative">定时</button>
+  </view>
+  <view class='bottom_block'
+    style="width: 202rpx; height: 230rpx; display: block; box-sizing: border-box; left: 352rpx; top: -469rpx; position: relative">
+    <image class="bottom_image" src='/image/dl.png'
+      style="width: 106rpx; height: 127rpx; display: inline-block; box-sizing: border-box; left: 38rpx; top: 10rpx; position: relative">
+    </image>
+  
+  
+    <button class="mini-btn" type="default" size="mini" style="width: 190rpx; height: 75rpx; display: inline-block; box-sizing: border-box; left: -5rpx; top: 26rpx; position: relative">电量</button>
+  </view>
+
+  
+</view>

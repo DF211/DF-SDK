@@ -1,0 +1,9 @@
+/**app.wxss**/
+page {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: scroll;
+}
+
